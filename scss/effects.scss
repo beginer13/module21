@@ -1,0 +1,23 @@
+/* ----------------- effects ------------------------- */
+.icon:hover {
+    background-color: rgb(224, 4, 206);
+    border-radius: 8px;
+}
+a[href], button, .nav-lines {
+    cursor: pointer;
+}
+
+.nav-opened {
+    display: block !important;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px 0px #00000080;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nav-opened .menu-item {
+    margin: 0;
+}

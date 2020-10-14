@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/faq.css">
+        <title>SkilDrive</title>
+    </head>
+    <body>
+        <header>
+            <div> 
+                <a href="#">
+                    <img src="./images/logo.svg" alt="Image here" class="logo">
+                </a>
+            </div>
+            <nav class="nav" id="nav">
+                <a href="./index.html" class="menu-item" >О нас</a>
+                <a href="#" class="menu-item" onclick="event.stopPropagation()">Условия</a>
+                <a href="./faq.html" class="menu-item" >Частые вопросы</a>
+                <a href="#" class="menu-item login" onclick="event.stopPropagation()">Войти</a>
+            </nav>
+            <div class="nav-lines">
+                <img src="./images/burger.svg" class="hamburger" id="burger"  onclick="event.stopPropagation()">
+            </div>
+        </header>
+        <section class="picture-text-container">
+            <img class="page-picture" src="./images/undraw_questions_75e0 1.svg" alt="quetion">
+            <h1 class="page-header">Частые вопросы</h1>
+            <p class="page-header-text">
+                Отвечаем на вопросы, которые у вас могут возникнуть.
+            </p>    
+        </section>
+        <section class="questions-container">
+            <div class="question-answer-container">
+                <div class="question">
+                    <span>Могу ли я отменить бронь?</span>
+                    <img src="images/Vector.svg" class="vector">
+                </div>
+                <div class="answer">No answer</div>
+            </div>
+            <div class="question-answer-container">
+                <div class="question">
+                    <span>Могу ли я вернуть деньги, если не подошёл автомобиль?</span>
+                    <img src="images/Vector.svg" class="vector">
+                </div>
+                <div class="answer">No answer</div>
+            </div>
+            <div class="question-answer-container">
+                <div class="question">
+                    <span>Что делать, если случилось ДТП?</span>
+                    <img src="images/Vector.svg" class="vector">
+                </div>
+                <div class="answer">No answer</div>
+            </div>
+            <div class="question-answer-container">
+                <div class="question">
+                    <span>Могу ли я оставить автомобиль в удобном для меня месте?</span>
+                    <img src="images/Vector.svg" class="vector">
+                </div>
+                <div class="answer">
+                    Данный вопрос обсуждается с собственником, 
+                    но как правило автомобиль нужно вернуть туда, где вы его получили.
+                </div>
+            </div>
+            <div class="question-answer-container">
+                <div class="question">
+                    <span>Что делать, если собственник просит заплатить ему напрямую?</span>
+                    <img src="images/Vector.svg" class="vector">
+                </div>
+                <div class="answer">No answer</div>
+            </div>
+            <div class="question-answer-container">
+                <div class="question">
+                    <span>Должен ли я заправлять автомобиль?</span>
+                    <img src="images/Vector.svg" class="vector">
+                </div>
+                <div class="answer">No answer</div>
+            </div>
+        </section>
+        <footer>
+            <p class="skill-rights-text">© SkillDrive Inc. 2020</p>
+            <div class="icons-container">
+                <a href="#"><img class="icon" src="./images/vkontakte.svg" alt="в контакте"></a>
+                <a href="#"><img class="icon" src="./images/XZchto.svg" alt="ХЗ что"></a>
+                <a href="#"><img class="icon"src="./images/facebook.svg" alt="facebook"></a>
+            </div>
+        </footer>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

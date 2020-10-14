@@ -1,0 +1,41 @@
+@import "variables";
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: $footer-back;
+    height: 125px; }
+  
+  .skill-rights-text {
+    font-size: 16px;
+    opacity: 0.4;
+    color: $skill-rights-text-color;
+    margin: 0 0 0 40px; }
+  
+  .icons-container {
+    margin: 0 43px 0 0; 
+    
+    .icon {
+      margin: 0 0 0 14px; }
+  }
+  
+@media  (max-width: 670Px) {
+  footer {  
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+    .skill-rights-text {
+      line-height: 18.75px;
+      margin: 0 0 0 20px;
+    }
+
+    .icons-container {
+        margin: 0 0 0 20px;
+        .icon {
+          margin: 0 14px 0 0;
+        }
+    }  
+  }
