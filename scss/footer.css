@@ -21,8 +21,7 @@ footer {
   footer {
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: flex-start;
-    height: 125px; }
+    align-items: flex-start; }
 
   .skill-rights-text {
     line-height: 18.75px;
